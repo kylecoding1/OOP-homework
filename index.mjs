@@ -1,6 +1,6 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
-const svgCaptcha = require('svg-captcha');
+import fs from 'fs';
+import inquirer from 'inquirer';
+import svgCaptcha from 'svg-captcha';
 
 inquirer.prompt([
   {
