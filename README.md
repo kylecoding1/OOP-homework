@@ -1,18 +1,20 @@
 # Node.js Logo Generator
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Tutorial
 https://user-images.githubusercontent.com/128002901/234122497-fe3d8d06-5355-4138-a2e7-832eb5d8f25c.mp4
 
 ## Description
 This is a Node.js command-line application that generates logos based on user input. The application prompts the user to enter text, text color, shape, and shape color, and then generates an SVG file that can be used as a logo.
 
-## Table of Contents
-Installation
-Usage
-License
-Contributing
-Tests
-Questions
 
 ## Installation
 To use this application, you'll need to have Node.js installed on your computer. You can download and install Node.js from the official website: https://nodejs.org/en/.
