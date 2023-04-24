@@ -13,7 +13,8 @@ License
 Contributing
 Tests
 Questions
-Installation
+
+## Installation
 To use this application, you'll need to have Node.js installed on your computer. You can download and install Node.js from the official website: https://nodejs.org/en/.
 
 To install the dependencies for this application, run the following command in your terminal or command prompt:
