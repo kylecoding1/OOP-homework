@@ -6,7 +6,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#questions)
+- [Questions](#links)
 
 ## Tutorial
 https://user-images.githubusercontent.com/128002901/234122497-fe3d8d06-5355-4138-a2e7-832eb5d8f25c.mp4
@@ -37,7 +37,7 @@ Note: If you already ran the application and generated the logo file, running th
 
 
 
-Contributing
+# Contributing
 If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## Tests
