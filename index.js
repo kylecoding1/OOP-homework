@@ -1,4 +1,6 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
+const svgCaptcha = require('svg-captcha');
 
 inquirer.prompt([
   {
@@ -29,3 +31,18 @@ inquirer.prompt([
     name: 'shapeColor',
     message: 'Enter the shape color (keyword or hexadecimal):'
   }
+]).then(answers => {
+  const captcha = svgCaptcha.create({
+    size: '300x200',
+    text: answers.text,
+    color: answers.textColor,
+    background: answers.shapeColor,
+    noise: 1,
+    ignoreChars: '0o1ilI',
+    shape: answers.shape
+  });
+
+  fs.writeFileSync('logo.svg', captcha.data);
+
+  console.log('Generated logo.svg');
+});
