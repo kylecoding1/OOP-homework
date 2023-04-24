@@ -27,7 +27,7 @@ To use this application, follow these steps:
 
 Open your terminal or command prompt.
 Navigate to the directory where your index.js file is located.
-Run the command node index.js to execute the file.
+Run the command node index.mjs to execute the file.
 The application will prompt you to enter the text, text color, shape, and shape color for the logo. Follow the prompts and enter the required information.
 Once you've entered all the information, the application will generate an SVG file called logo.svg in the same directory as your index.js file.
 Open the logo.svg file in a web browser to view the generated logo.
@@ -41,7 +41,7 @@ If you'd like to contribute to this project, please fork the repository and crea
 ## Tests
 To run the tests for this application, run the following command in your terminal or command prompt:  
 
-node --experimental-modules index.mjs
+node index.mjs
 
 ## Links 
 Github repository link : https://github.com/kylecoding1/OOP-homework
