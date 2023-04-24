@@ -6,7 +6,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#links)
+- [Links](#links)
 
 ## Tutorial
 https://user-images.githubusercontent.com/128002901/234122497-fe3d8d06-5355-4138-a2e7-832eb5d8f25c.mp4
